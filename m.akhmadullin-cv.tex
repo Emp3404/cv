@@ -1,0 +1,76 @@
+\documentclass[11pt,a4paper]{moderncv}
+\moderncvtheme[grey]{classic}%{casual}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.9]{geometry}
+\definecolor{linkcol}{rgb}{0,0.2,0.6}
+\usepackage[unicode,colorlinks,breaklinks,urlcolor=linkcol,linkcolor=linkcol]{hyperref}
+
+\firstname{\Huge{Marsel}}
+\familyname{\Huge{Akhmadullin}}
+\title{Software engineer}
+\address{Moscow, Russia}{}
+% \mobile{} I don't think that it's a good idea to put mobile into the internet
+\email{akhmadullin.marsel@gmail.com}
+% TODO: make photo and choose right size(looks like standart size is 92pt)
+\photo[50pt][0.4pt]{download.png}
+
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+\begin{document}
+\makecvtitle
+
+\section{\textbf{Experience}}
+\cventry
+    {2018 - nowadays}
+    {Software Engineer}
+    {Samsung Research Russia}
+    {Moscow}{Russia}
+    {long long long description}
+\cventry
+    {2016 - 2018}
+    {Software Engineer}
+    {PNGA}
+    {Moscow}{Russia}
+    {not so long description}
+
+\section{\textbf{Development skills}}
+\subsection{\textbf{Programming Languages}}
+\cvitem
+    {Expert}{C}
+\cvitem
+    {Intermediate}{C++, Python, Bash}
+\cvitem
+    {Basics}{Java, Lisp(Scheme, Emacs), ASM, Delphi}
+    
+\subsection{\textbf{Frameworks and tools}}
+\cvitem
+    {Development}{Build tools: Makefile, CMake, by hand scripting(Shell, Bash, Python)}
+\cvitem
+    {Debug}{gdb, pdb}
+\cvitem
+    {GUI}{Qt(C++), Tkinter}
+\cvitem
+    {OS}{Linux-based (default working OS: Arch), Windows NT - based}
+\cvitem
+    {VCS}{git, subversion}
+\cvitem
+    {Network}{Wireshark, Nmap, Cisco CLI}
+\cvitem
+    {CI}{Jenkins, Travis, can write myself CI}
+    
+\section{\textbf{Education}}
+\cventry
+    {2012 - 2016}
+    {Bachelor}
+    {USPTU(Ufa State Petroleum Technological Univercity)}{Ufa}{}{}
+    
+\section{\textbf{Public Activity}}
+\cvitem{GitHub}{\url{https://github.com/Emp3404}}
+
+\section{\textbf{Languages}}
+\cvlanguage{English}{Upper intermediate}{}
+\cvlanguage{Russia}{Mother tongue}{}
+
+\end{document}
